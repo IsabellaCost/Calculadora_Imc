@@ -1,0 +1,75 @@
+*{
+    margin: auto;
+}
+.nav{
+    position: relative;
+    display: flex;
+    background-color: white;
+    top: 35px;
+}
+
+.option{
+    position: relative;
+    display: flex;
+    list-style-type: none;
+    left: -470px;
+}
+
+ul li a{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #1f5eaf;
+    font-weight: bold;
+}
+
+.cal{
+    color: #1f5eaf;
+}
+
+.atributos{
+    position: relative;
+    display: flex;
+    width: 500px;
+    left: -90px;
+}
+
+.atributos input{
+    width: 120px;
+    border-radius: 10px;
+}
+
+.btn1{
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: #1f5eaf;
+    border-radius: 100px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 0px;
+    
+}
+
+.btn2{
+    position: relative;
+    top: 22px;
+    left: 100px;
+    background-color: #ff501f;
+    border-radius: 100px;
+    height: 50px;
+    width: 150px;
+    color: white;
+    border: 0px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.cad{
+    color: #1f5eaf;  
+}
+
+
+
